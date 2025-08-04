@@ -43,7 +43,7 @@ const About: React.FC = () => {
               <div className="relative bg-slate-700 rounded-2xl p-8 transform group-hover:-rotate-3 transition-transform duration-300">
                 <div className="w-full h-80 bg-gradient-to-br from-blue-500/20 to-orange-500/20 rounded-xl flex items-center justify-center">
                   <img
-                    src="/dp.jpg"
+                    src="https://raw.githubusercontent.com/ramizkhan431/ramiz-portfolio/refs/heads/main/public/dp.jpg"
                     alt="Profile"
                     className="w-full h-80 object-cover rounded-xl border-4 border-white/20 shadow-lg"
                   />

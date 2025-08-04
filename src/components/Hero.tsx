@@ -61,16 +61,6 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-orange-500 animate-spin" style={{ animationDuration: '8s' }}></div>
               <div className="absolute inset-2 rounded-full bg-gradient-to-r from-orange-500 to-blue-500 animate-spin" style={{ animationDuration: '6s', animationDirection: 'reverse' }}></div>
               
-              {/* Photo container */}
-              <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-slate-900 group-hover:scale-110 transition-all duration-500 group-hover:rotate-6">
-                <img
-                  src="https://avatars.githubusercontent.com/u/45427874?v=4"
-                  alt="Ramiz Khan - Full Stack Developer"
-                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
-                />
-                {/* Overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </div>
               
               {/* Floating elements around photo */}
               <div className="absolute -top-2 -right-2 w-6 h-6 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0s' }}></div>

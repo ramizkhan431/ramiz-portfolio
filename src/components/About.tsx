@@ -42,7 +42,11 @@ const About: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-orange-500 rounded-2xl transform rotate-6 group-hover:rotate-12 transition-transform duration-300"></div>
               <div className="relative bg-slate-700 rounded-2xl p-8 transform group-hover:-rotate-3 transition-transform duration-300">
                 <div className="w-full h-80 bg-gradient-to-br from-blue-500/20 to-orange-500/20 rounded-xl flex items-center justify-center">
-                  <div className="text-6xl font-bold text-white/40">JD</div>
+                  <img
+                    src="public/dp.jpg"
+                    alt="Profile"
+                    className="w-full h-80 object-cover rounded-xl border-4 border-white/20 shadow-lg"
+                  />
                 </div>
               </div>
             </div>
